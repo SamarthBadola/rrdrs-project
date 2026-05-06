@@ -1,4 +1,5 @@
-```erDiagram
+```mermaid
+erDiagram
     RELIEF_CAMPS ||--o{ CAMP_INVENTORY : "has stock in"
     SUPPLY_CATALOG ||--o{ CAMP_INVENTORY : "is tracked as"
     
@@ -62,6 +63,12 @@
     SHIPMENTS {
         NUMBER shipment_id PK
         NUMBER request_id FK
+        NUMBER warehouse_id FK
+        DATE dispatch_date
+        DATE delivery_date
+        NUMBER shipped_quantity
+        VARCHAR2 status
+    }
         NUMBER warehouse_id FK
         DATE dispatch_date
         DATE delivery_date

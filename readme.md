@@ -1,4 +1,4 @@
-erDiagram
+```erDiagram
     RELIEF_CAMPS ||--o{ CAMP_INVENTORY : "has stock in"
     SUPPLY_CATALOG ||--o{ CAMP_INVENTORY : "is tracked as"
     

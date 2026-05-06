@@ -69,9 +69,3 @@ erDiagram
         NUMBER shipped_quantity
         VARCHAR2 status
     }
-        NUMBER warehouse_id FK
-        DATE dispatch_date
-        DATE delivery_date
-        NUMBER shipped_quantity
-        VARCHAR2 status
-    }

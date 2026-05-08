@@ -1,9 +1,9 @@
 -- =============================================================================
 --  RAPID RESPONSE DISASTER RELIEF SYSTEM (RRDRS)
 --  Course  : UCS310 - Database Management Systems
---  Group   : Samarth Badola · Shaurya Kansal · Pallav Nirola
+--  Group   : Samarth Badola · Shourya Kansal · Pallav Nirola
 --  Sub-grp : 2C65  |  Thapar Institute of Engineering & Technology
---  DB      : Oracle 19c
+--  DB      : Oracle 21c
 -- =============================================================================
 --
 --  EXECUTION ORDER (run top to bottom):
